@@ -1,0 +1,5 @@
+x,y=map(int,input().split())
+m=max(x,y)
+n=min(x,y)
+sum=(m+n)/2*(m-n+1)
+print(int(sum))    
